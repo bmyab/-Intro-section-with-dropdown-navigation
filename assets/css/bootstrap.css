@@ -1,0 +1,28 @@
+
+.btn{
+  font-size: 1.5rem;
+  border: 2px solid transparent;
+  color: var(--MediumGray);
+}
+.btn.show{
+  color: var(--AlmostBlack);
+  border: 2px dashed var(--AlmostBlack);
+}
+.dropdown-menu{
+  font-size: 1.4rem;
+  padding-right: 50px;
+  text-align: center;
+}
+.dropdown-item{
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.dropdown-item img{
+  width: 12px;
+}
+@media (min-width:1200px) {
+  .btn{
+    font-size: 1.8rem;
+  }
+}
